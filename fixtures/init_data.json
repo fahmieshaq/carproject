@@ -1,0 +1,163 @@
+[
+  {
+    "model": "api.Branch",
+    "pk": 1,
+    "fields": {
+      "name": "A-Branch",
+      "city": "Newyork"
+    }
+  },
+  {
+    "model": "api.Branch",
+    "pk": 2,
+    "fields": {
+      "name": "B-Branch",
+      "city": "London"
+    }
+  },
+  {
+    "model": "api.Branch",
+    "pk": 3,
+    "fields": {
+      "name": "C-Branch",
+      "city": "Toronto"
+    }
+  },
+  {
+    "model": "api.Vehicle",
+    "pk": 1,
+    "fields": {
+      "name": "Toyota",
+      "type": "Sedan",
+      "branch": 1
+    }
+  },
+  {
+    "model": "api.Vehicle",
+    "pk": 2,
+    "fields": {
+      "name": "Honda",
+      "type": "Sedan",
+      "branch": 1
+    }
+  },
+  {
+    "model": "api.Vehicle",
+    "pk": 3,
+    "fields": {
+      "name": "Lincol",
+      "type": "SUV",
+      "branch": 2
+    }
+  },
+  {
+    "model": "api.Vehicle",
+    "pk": 4,
+    "fields": {
+      "name": "Ferrari",
+      "type": "Sports",
+      "branch": 2
+    }
+  },
+  {
+    "model": "api.Vehicle",
+    "pk": 5,
+    "fields": {
+      "name": "Cadelac",
+      "type": "Family",
+      "branch": 3
+    }
+  },
+  {
+    "model": "api.Vehicle",
+    "pk": 6,
+    "fields": {
+      "name": "Infiniti",
+      "type": "Van",
+      "branch": 3
+    }
+  },
+  {
+    "model": "api.VehicleDetail",
+    "pk": 1,
+    "fields": {
+      "price": "100",
+      "vehicle": "1"
+    }
+  },
+  {
+    "model": "api.VehicleDetail",
+    "pk": 2,
+    "fields": {
+      "price": "200",
+      "vehicle": "2"
+    }
+  },
+  {
+    "model": "api.VehicleDetail",
+    "pk": 3,
+    "fields": {
+      "price": "300",
+      "vehicle": "3"
+    }
+  },
+  {
+    "model": "api.VehicleDetail",
+    "pk": 4,
+    "fields": {
+      "price": "400",
+      "vehicle": "4"
+    }
+  },
+  {
+    "model": "api.VehicleDetail",
+    "pk": 5,
+    "fields": {
+      "price": "500",
+      "vehicle": "5"
+    }
+  },
+  {
+    "model": "api.VehicleDetail",
+    "pk": 6,
+    "fields": {
+      "price": "600",
+      "vehicle": "6"
+    }
+  },
+  {
+    "model": "api.Renter",
+    "pk": 1,
+    "fields": {
+      "firstname": "Fahmi",
+      "lastname": "Eshaq",
+      "vehicles": ["1", "2", "3"]
+    }
+  },
+  {
+    "model": "api.Renter",
+    "pk": 2,
+    "fields": {
+      "firstname": "Esra",
+      "lastname": "Bob",
+      "vehicles": ["1", "2"]
+    }
+  },
+  {
+    "model": "api.Renter",
+    "pk": 3,
+    "fields": {
+      "firstname": "Fahmi",
+      "lastname": "Eshaq",
+      "vehicles": "2"
+    }
+  },
+  {
+    "model": "api.RenterVehicle",
+    "fields": {
+      "renter": "3",
+      "vehicle": "3",
+      "date_rented": "2020-04-18"
+    }
+  }
+]
